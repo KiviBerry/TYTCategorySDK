@@ -7,6 +7,8 @@
 //
 
 #import "TYTViewController.h"
+#import <TYTCategorySDK/TYTConsts.h>
+#import <TYTCategory/NSString+TYTAdd.h>
 
 @interface TYTViewController ()
 
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    if ([@"tyt" isValidString]) {
+        NSLog(@"YES");
+    }
 }
 
 - (void)didReceiveMemoryWarning

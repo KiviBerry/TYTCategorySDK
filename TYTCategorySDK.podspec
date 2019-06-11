@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xcltyt/TYTCategorySDK'
+  s.homepage         = 'https://github.com/KiviBerry/TYTCategorySDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xcltyt' => '1198356747@qq.com' }
-  s.source           = { :git => 'https://github.com/xcltyt/TYTCategorySDK.git', :tag => s.version.to_s }
+  s.author           = { 'KiviBerry' => '845520822@qq.com' }
+  s.source           = { :git => 'https://github.com/KiviBerry/TYTCategorySDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TYTCategorySDK/Classes/**/*'
-  
+  s.vendored_frameworks = 'TYTCategorySDK/*.{framework}'
   # s.resource_bundles = {
   #   'TYTCategorySDK' => ['TYTCategorySDK/Assets/*.png']
   # }

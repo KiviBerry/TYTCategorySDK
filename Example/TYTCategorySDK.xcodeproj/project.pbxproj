@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4EA343DC2B5F8E384D0EBC30 /* [CP] Embed Pods Frameworks */,
+				68C7886DD9A4DC22DD12BC0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,18 +294,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4EA343DC2B5F8E384D0EBC30 /* [CP] Embed Pods Frameworks */ = {
+		68C7886DD9A4DC22DD12BC0F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TYTCategorySDK_Example/Pods-TYTCategorySDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TYTCategorySDK/TYTCategorySDK.framework",
+				"${PODS_ROOT}/../../TYTCategorySDK/TYTCategory.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYTCategorySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYTCategory.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
